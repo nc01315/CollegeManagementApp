@@ -1,5 +1,7 @@
 # CollegeManagementApp
-This C++ application manages the infomation of the students, faculties, administrators with more than five different C++ classes which publicly inherites the person class. The make file is included. Use make command in Linux/Unix/Mac command line  to compile all related C++ automatically in the folder.
+This C++ application manages the infomation of the students, faculties, administrators with more than five different C++ classes which publicly inherites the person class. The main.cpp read in an input file with the postfix .tab.
+
+The make file is included. Use make command in Linux/Unix/Mac command line to compile all related C++ automatically in the folder. 
 
 The administrator class has following members:
 - a constructor administrator()
