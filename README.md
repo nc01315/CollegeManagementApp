@@ -22,7 +22,7 @@ The faculty class has following members:
 - a setter for a Faculty's departmnet, getDepart();
 - two private data members:
         string depart; //Faculty's department
-	      int tenured; //Faculty's tenure status
+	int tenured; //Faculty's tenure status
         
         
 The Student class has following members:
@@ -57,10 +57,9 @@ The HashTable class has following members:
 
 - 3 private data members:
 
-		int TableSize;							//hash table size
-		vector < list < T > > PersonPtr;		//hash table
-		int hash( const string & key ) const ;	//hash function 
+		int TableSize;				//hash table size
+		vector < list < T > > PersonPtr;	//hash table, a STL vector of a STL lists
+		int hash( const string & key ) const ;	//hash function, takes a key and return an integer value
     
-};
 
 
